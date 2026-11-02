@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esedra Service | Service auto Satu Mare</title>
+<meta name="description" content="Esedra Service, Satu Mare – mecanică, diagnoză, revizii, frâne, climatizare, vulcanizare, ITP. Luni–Vineri 08:00–17:00.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cdefs%3E%3Cmask id=%22l-jaw%22 maskUnits=%22userSpaceOnUse%22 x=%22-12%22 y=%22-12%22 width=%2224%22 height=%2224%22%3E%3Crect x=%22-12%22 y=%22-12%22 width=%2224%22 height=%2224%22 fill=%22%23fff%22/%3E%3Crect x=%22-0.45%22 y=%22-2.11%22 width=%2212%22 height=%224.22%22 fill=%22%23000%22/%3E%3C/mask%3E%3Cmask id=%22l-gap%22 maskUnits=%22userSpaceOnUse%22 x=%220%22 y=%220%22 width=%2264%22 height=%2264%22%3E%3Crect width=%2264%22 height=%2264%22 fill=%22%23fff%22/%3E%3Cpolyline points=%2225.54,31.65 45.13,51.64%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%229.31%22 stroke-linecap=%22round%22/%3E%3C/mask%3E%3Cfilter id=%22l-outline%22 x=%22-10%25%22 y=%22-10%25%22 width=%22120%25%22 height=%22120%25%22%3E%3CfeMorphology in=%22SourceAlpha%22 operator=%22dilate%22 radius=%220.75%22 result=%22d%22/%3E%3CfeFlood flood-color=%22%23fff%22/%3E%3CfeComposite in2=%22d%22 operator=%22in%22/%3E%3CfeMerge%3E%3CfeMergeNode/%3E%3CfeMergeNode in=%22SourceGraphic%22/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%232866ad%22/%3E%3Cg transform=%22translate(5 5) scale(.844)%22%3E%3Cg filter=%22url(%23l-outline)%22%3E%3Ccircle cx=%2249.46%22 cy=%2211.63%22 r=%226.02%22 fill=%22%23d6331f%22/%3E%3Cpolyline points=%2230.91,9.38 45.22,23.77%22 fill=%22none%22 stroke=%22%23d6331f%22 stroke-width=%226.11%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cpolyline points=%2230.91,9.38 16.85,23.45%22 fill=%22none%22 stroke=%22%23d6331f%22 stroke-width=%226.11%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cg transform=%22translate(14.48 25.82) rotate(135.0)%22%3E%3Ccircle r=%225.59%22 fill=%22%23d6331f%22 mask=%22url(%23l-jaw)%22/%3E%3C/g%3E%3Cpolyline points=%2237.63,27.52 40.95,31.19 53.27,31.25%22 fill=%22none%22 stroke=%22%23d6331f%22 stroke-width=%226.11%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cg transform=%22translate(56.62 31.26) rotate(0.3)%22%3E%3Ccircle r=%225.59%22 fill=%22%23d6331f%22 mask=%22url(%23l-jaw)%22/%3E%3C/g%3E%3Cpolyline points=%2225.54,31.65 45.13,51.64 20.52,51.63%22 fill=%22none%22 stroke=%22%23d6331f%22 stroke-width=%226.11%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cpolyline points=%225.01,55.92 25.05,35.49%22 fill=%22none%22 stroke=%22%23d6331f%22 stroke-width=%226.11%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 mask=%22url(%23l-gap)%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700;800&family=Russo+One&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f3ee; --white:#ffffff; --text:#151515; --muted:#6b6560; --line:rgba(21,21,21,.1);
+    --red:#d6331f; --blue:#2866ad; --red-soft:#fde9e5; --sky:#5cb3f5; --sky-ink:#0d2b4a; --sky-dark:#2f8fd8; --dark:#151515;
+    /* Pune aici o poză reală din service: url('poze/atelier.jpg') */
+    --hero-img: none;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font:17px/1.6 Barlow,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{font-family:"Exo 2",sans-serif;text-transform:uppercase;letter-spacing:.01em;line-height:1.08}
+
+  .btn{display:inline-flex;align-items:center;gap:10px;background:var(--sky);color:var(--sky-ink);font-family:"Exo 2";font-weight:700;text-transform:uppercase;font-size:15px;letter-spacing:.04em;padding:14px 28px;border-radius:999px;box-shadow:0 4px 0 var(--sky-dark);transition:transform .15s,box-shadow .15s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 6px 0 var(--sky-dark),0 12px 24px rgba(47,143,216,.28)}
+  .btn-line{background:var(--white);border:1.5px solid var(--line);box-shadow:none}
+  .btn-line:hover{border-color:var(--text);box-shadow:none}
+  .more{font-family:"Exo 2";font-weight:600;text-transform:uppercase;font-size:14px;letter-spacing:.06em;padding-bottom:4px;border-bottom:2px solid var(--red);display:inline-block}
+
+  /* Logo */
+  .brand{display:flex;align-items:center;gap:12px;color:var(--dark)}
+  .brand .badge-logo{width:56px;height:56px;flex:none;border-radius:14px;background:var(--blue);display:grid;place-items:center;box-shadow:0 4px 12px rgba(40,102,173,.25)}
+  .brand .badge-logo svg{width:46px;height:46px}
+  .wordmark{display:flex;flex-direction:column;line-height:1}
+  .wordmark b{font-family:"Russo One","Exo 2",sans-serif;font-weight:400;font-size:26px;letter-spacing:.05em;margin-right:-.05em}
+  .wordmark small{font-family:"Russo One","Exo 2",sans-serif;font-weight:400;font-size:15px;color:var(--red);margin-top:5px;line-height:1;display:flex;justify-content:space-between;align-items:center;width:0;min-width:100%;white-space:nowrap}
+  .wordmark small span:nth-child(2){letter-spacing:.08em;margin-right:-.08em}
+  
+  /* Header */
+  header{position:absolute;top:0;left:0;right:0;z-index:10;border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:20px;height:88px}
+  nav{display:flex;gap:32px;font-family:"Exo 2";font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+  nav a{color:#3a3633}
+  nav a:hover{color:var(--red)}
+  .phone{display:flex;align-items:center;gap:12px;font-family:"Exo 2";font-weight:700;letter-spacing:.04em}
+  .phone i{width:42px;height:42px;border-radius:50%;background:var(--sky);display:grid;place-items:center;box-shadow:0 0 0 6px rgba(92,179,245,.25)}
+  .phone svg{width:18px;height:18px}
+
+  /* Hero */
+  .hero{position:relative;min-height:700px;display:flex;align-items:center;padding:150px 0 100px;overflow:hidden;
+    background:
+      linear-gradient(90deg,rgba(246,243,238,.97) 0%,rgba(246,243,238,.85) 48%,rgba(246,243,238,.25) 100%),
+      radial-gradient(ellipse 55% 65% at 80% 50%,rgba(214,51,31,.22),transparent 70%),
+      radial-gradient(ellipse 35% 45% at 95% 95%,rgba(92,179,245,.35),transparent 70%),
+      var(--hero-img) center/cover no-repeat,
+      var(--bg);}
+  .hero-art{position:absolute;right:-40px;top:52%;transform:translateY(-50%) rotate(-8deg);width:min(600px,58vw);opacity:.08;pointer-events:none}
+  .hero .content{position:relative;z-index:1;max-width:640px}
+  .status{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--white);padding:6px 14px;border-radius:999px;font-family:"Exo 2";font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:24px}
+  .status i{width:9px;height:9px;border-radius:50%;background:#22b35e;box-shadow:0 0 0 3px rgba(34,179,94,.2)}
+  .status.off i{background:var(--red);box-shadow:0 0 0 3px rgba(214,51,31,.2)}
+  .hero h1{font-size:clamp(42px,6.4vw,74px);font-weight:800}
+  .hero h1 span{color:var(--red)}
+  .hero p{color:#4a4541;font-size:19px;margin:22px 0 34px;max-width:50ch}
+  .actions{display:flex;flex-wrap:wrap;gap:14px}
+
+  /* Highlights 01-03 */
+  .highlights{background:var(--white);padding:56px 0 88px;border-top:1px solid var(--line)}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .num{display:flex;align-items:center;gap:20px;font-family:"Exo 2";font-weight:700;font-size:20px;margin-bottom:22px}
+  .num::after{content:"";flex:1;height:1px;background:var(--line)}
+  .hcard{background:var(--bg);border-radius:18px;padding:34px 24px 30px;text-align:center;border:1px solid transparent;transition:border-color .2s,transform .2s,box-shadow .2s}
+  .hcard:hover{border-color:rgba(214,51,31,.35);transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,0,.06)}
+  .ring{width:66px;height:66px;margin:0 auto 22px;border-radius:50%;background:var(--red-soft);display:grid;place-items:center}
+  .ring span{width:48px;height:48px;border-radius:50%;background:var(--red);display:grid;place-items:center}
+  .ring svg{width:24px;height:24px;color:#fff}
+  .hcard h3{font-size:22px;font-weight:700;margin-bottom:22px}
+
+  /* Section titles with ghost text */
+  .stitle{position:relative;text-align:center;margin-bottom:52px}
+  .stitle .ghost{position:absolute;left:50%;top:50%;transform:translate(-50%,-58%);font-family:"Exo 2";font-weight:800;text-transform:uppercase;font-size:clamp(56px,11vw,140px);color:rgba(21,21,21,.045);white-space:nowrap;pointer-events:none}
+  .stitle h2{position:relative;font-size:clamp(30px,4vw,44px);font-weight:800}
+  .stitle p{position:relative;color:var(--muted);margin:12px auto 0;max-width:56ch}
+
+  /* Services */
+  .services{padding:110px 0;background:radial-gradient(ellipse 70% 45% at 50% 0%,rgba(214,51,31,.08),transparent 70%),var(--bg)}
+  .slist{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .srv{display:grid;grid-template-columns:150px 1fr;background:var(--white);border-radius:14px;overflow:hidden;border:1px solid var(--line);transition:border-color .2s,box-shadow .2s}
+  .srv:hover{border-color:rgba(214,51,31,.4);box-shadow:0 12px 28px rgba(0,0,0,.06)}
+  .thumb{position:relative;display:grid;place-items:center;background:radial-gradient(circle at 30% 30%,#e8452f,#9c1d0e 75%)}
+  .thumb::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.06) 0 2px,transparent 2px 10px)}
+  .thumb svg{width:46px;height:46px;color:#fff;position:relative;z-index:1}
+  .srv .body{padding:22px 24px}
+  .srv h3{font-size:19px;font-weight:700;margin-bottom:6px}
+  .srv p{color:var(--muted);font-size:15px}
+  .srv.feature .thumb{background:radial-gradient(circle at 30% 30%,#9ad3ff,#2f8fd8 75%)}
+  .srv.feature .thumb svg{color:#fff}
+  .badge{display:inline-block;background:var(--sky);color:var(--sky-ink);font-family:"Exo 2";font-weight:700;font-size:11px;letter-spacing:.06em;padding:2px 10px;border-radius:999px;margin-left:8px;vertical-align:middle}
+
+  /* Visit */
+  .visit{padding:110px 0;background:var(--white)}
+  .vgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:28px}
+  .panel{background:var(--bg);border-radius:18px;padding:36px}
+  .panel h3{font-size:24px;font-weight:800;margin-bottom:6px}
+  .panel .sub{color:var(--red);font-family:"Exo 2";font-weight:700;text-transform:uppercase;letter-spacing:.04em;margin-bottom:24px}
+  .hours{list-style:none}
+  .hours li{display:flex;justify-content:space-between;padding:12px 14px;border-radius:10px;font-weight:500}
+  .hours li.today{background:var(--white);color:var(--red);font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+  .hours .x{color:#9a948e}
+  .clist{display:grid;gap:14px}
+  .clist a{display:flex;gap:16px;align-items:center;padding:16px;border-radius:12px;background:var(--white);border:1px solid transparent;transition:border-color .2s}
+  .clist a:hover{border-color:var(--red)}
+  .clist .ic{flex:none;width:46px;height:46px;border-radius:50%;background:var(--red-soft);display:grid;place-items:center}
+  .clist .ic svg{width:20px;height:20px;color:var(--red)}
+  .clist small{display:block;color:var(--muted);font-size:12px;font-family:"Exo 2";letter-spacing:.12em;text-transform:uppercase}
+  .clist strong{font-family:"Exo 2";font-weight:700;font-size:17px;word-break:break-word}
+  .map{margin-top:28px;border-radius:18px;overflow:hidden;height:400px;border:1px solid var(--line)}
+  .map iframe{width:100%;height:100%;border:0;display:block}
+
+
+
+  /* Mărci auto */
+  .brands{background:var(--bg);padding:72px 0 0}
+  .brands-head{display:flex;align-items:center;gap:20px;margin-bottom:28px}
+  .brands-head .line{flex:1;height:1px;background:var(--line)}
+  .brands-head h2{font-size:clamp(18px,2.4vw,24px);font-weight:800;white-space:nowrap}
+  .brand-list{list-style:none;display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+  .brand-list li{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px 10px;text-align:center;font-family:"Exo 2";font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:15px;color:#5b5652;transition:color .2s,border-color .2s,transform .2s}
+  .brand-list li:hover{color:var(--red);border-color:var(--red);transform:translateY(-2px)}
+  .services{padding-top:80px !important}
+
+  /* Rating */
+  .rating{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:-12px 0 30px;font-weight:500;color:#4a4541}
+  .stars{position:relative;display:inline-block;font-size:24px;letter-spacing:2px;color:#d9d3cb;line-height:1}
+  .stars-fill{position:absolute;inset:0;overflow:hidden;white-space:nowrap;color:#f5a623}
+  .rating b{font-family:"Exo 2";font-weight:800;font-size:24px;color:var(--text)}
+
+  /* Telefoane pe departamente */
+  .phones{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:28px}
+  .pcard{background:var(--bg);border-radius:18px;padding:26px 22px;display:flex;flex-direction:column;gap:10px;border:1px solid transparent;transition:border-color .2s,transform .2s,box-shadow .2s}
+  .pcard:hover{border-color:var(--sky);transform:translateY(-3px);box-shadow:0 14px 30px rgba(0,0,0,.06)}
+  .pic{width:52px;height:52px;border-radius:50%;background:var(--red);display:grid;place-items:center;box-shadow:0 0 0 6px var(--red-soft);margin-bottom:6px}
+  .pic svg{width:24px;height:24px;color:#fff}
+  .pdep{font-family:"Exo 2";font-weight:700;text-transform:uppercase;font-size:16px;line-height:1.2;min-height:2.4em}
+  .pnum{font-family:"Exo 2";font-weight:800;font-size:22px;letter-spacing:.02em}
+  .pcall{margin-top:auto;display:inline-flex;align-items:center;gap:8px;align-self:flex-start;background:var(--sky);color:var(--sky-ink);font-family:"Exo 2";font-weight:700;text-transform:uppercase;font-size:13px;padding:8px 16px;border-radius:999px}
+  .pcall svg{width:14px;height:14px}
+
+  /* Locație */
+  .location{padding:0 0 110px;background:var(--white)}
+  .location .map{position:relative;margin-top:0;height:460px;background:var(--bg)}
+  .location .map iframe{position:relative;z-index:1}
+  .map-fallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:20px}
+  .map-fallback svg{width:44px;height:44px;color:var(--red)}
+  .map-fallback strong{font-family:"Exo 2";font-size:20px}
+  .map-card{position:absolute;z-index:2;left:20px;bottom:20px;display:flex;align-items:center;gap:12px;background:var(--white);padding:12px 18px 12px 12px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+  .map-card .badge-logo{width:44px;height:44px;border-radius:11px;background:var(--blue);display:grid;place-items:center}
+  .map-card .badge-logo svg{width:36px;height:36px}
+  .map-card b{display:block;font-family:"Russo One","Exo 2";font-weight:400;font-size:17px;letter-spacing:.03em}
+  .map-card small{color:var(--muted);font-size:13px}
+
+  footer{background:var(--dark);color:#cfcac5;padding:30px 0;font-size:14px}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+  footer .brand{color:#fff}
+  footer .brand .badge-logo{width:48px;height:48px}
+  footer .brand .badge-logo svg{width:40px;height:40px}
+  footer .wordmark b{font-size:20px}
+
+  @media (max-width:960px){
+    nav{display:none}
+    .phones{grid-template-columns:1fr 1fr}
+    .brand-list{grid-template-columns:repeat(4,1fr)}
+    .steps,.slist,.vgrid{grid-template-columns:1fr}
+    .hero-art{right:-160px}
+  }
+  @media (max-width:560px){
+    .phone span{display:none}
+    .brand .badge-logo{width:46px;height:46px}
+    .brand .badge-logo svg{width:38px;height:38px}
+    .wordmark b{font-size:19px}
+    .wordmark small{font-size:13px}
+    .hero{min-height:620px;padding-top:130px}
+    .srv{grid-template-columns:96px 1fr}
+    .panel{padding:26px 20px}
+    .services,.visit{padding:76px 0}
+    .map{height:300px}
+    .location .map{height:360px}
+    .phones{grid-template-columns:1fr}
+    .brand-list{grid-template-columns:repeat(3,1fr)}
+    .brand-list li{font-size:13px;padding:14px 6px}
+    .brands-head h2{white-space:normal;text-align:center}
+    .pdep{min-height:0}
+    .location{padding-bottom:76px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Logo: omuleț care aleargă, cu brațele din chei (inspirat din semnul de pe clădire) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><mask id="lg-jaw" maskUnits="userSpaceOnUse" x="-12" y="-12" width="24" height="24"><rect x="-12" y="-12" width="24" height="24" fill="#fff"/><rect x="-0.45" y="-2.11" width="12" height="4.22" fill="#000"/></mask><mask id="lg-gap" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64"><rect width="64" height="64" fill="#fff"/><polyline points="25.54,31.65 45.13,51.64" fill="none" stroke="#000" stroke-width="9.31" stroke-linecap="round"/></mask><filter id="lg-outline" x="-10%" y="-10%" width="120%" height="120%"><feMorphology in="SourceAlpha" operator="dilate" radius="0.75" result="d"/><feFlood flood-color="#fff"/><feComposite in2="d" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <symbol id="logo" viewBox="0 0 64 64"><g filter="url(#lg-outline)"><circle cx="49.46" cy="11.63" r="6.02" fill="#d6331f"/><polyline points="30.91,9.38 45.22,23.77" fill="none" stroke="#d6331f" stroke-width="6.11" stroke-linecap="round" stroke-linejoin="round"/><polyline points="30.91,9.38 16.85,23.45" fill="none" stroke="#d6331f" stroke-width="6.11" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(14.48 25.82) rotate(135.0)"><circle r="5.59" fill="#d6331f" mask="url(#lg-jaw)"/></g><polyline points="37.63,27.52 40.95,31.19 53.27,31.25" fill="none" stroke="#d6331f" stroke-width="6.11" stroke-linecap="round" stroke-linejoin="round"/><g transform="translate(56.62 31.26) rotate(0.3)"><circle r="5.59" fill="#d6331f" mask="url(#lg-jaw)"/></g><polyline points="25.54,31.65 45.13,51.64 20.52,51.63" fill="none" stroke="#d6331f" stroke-width="6.11" stroke-linecap="round" stroke-linejoin="round"/><polyline points="5.01,55.92 25.05,35.49" fill="none" stroke="#d6331f" stroke-width="6.11" stroke-linecap="round" stroke-linejoin="round" mask="url(#lg-gap)"/></g></symbol>
+</svg>
+
+<header>
+  <div class="wrap bar">
+    <a href="#" class="brand" aria-label="Esedra Service">
+      <span class="badge-logo"><svg viewBox="0 0 64 64"><use href="#logo"/></svg></span>
+      <span class="wordmark"><b>ESEDRA</b><small><span>-</span><span>SERVICE</span><span>-</span></small></span>
+    </a>
+    <nav>
+      <a href="#servicii">Servicii</a>
+      <a href="#vizita">Program</a>
+      <a href="#vizita">Contact</a>
+      <a href="#locatie">Locație</a>
+    </nav>
+    <a class="phone" href="tel:+40751085565">
+      <i><svg viewBox="0 0 24 24" fill="#0d2b4a"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></i>
+      <span>0751 085 565</span>
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <svg class="hero-art" viewBox="0 0 64 64" aria-hidden="true"><use href="#logo"/></svg>
+  <div class="wrap">
+    <div class="content">
+      <span class="status" id="status"><i></i><b>Deschis acum</b></span>
+      <h1>Service auto în care poți avea <span>încredere!</span></h1>
+      <p>Mecanică, diagnoză computerizată, ITP și întreținere pentru toate mărcile. Vino la Esedra Service și pleci liniștit la drum.</p>
+      <div class="rating" aria-label="Evaluare 4,8 din 5 stele">
+        <span class="stars"><span class="stars-fill" style="width:96%">★★★★★</span>★★★★★</span>
+        <b>4,8</b><span>din 5 · evaluarea clienților</span>
+      </div>
+      <div class="actions">
+        <a class="btn" href="tel:+40751085565">Sună acum</a>
+        <a class="btn btn-line" href="#servicii">Vezi serviciile</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="highlights">
+  <div class="wrap steps">
+    <div>
+      <div class="num">01</div>
+      <div class="hcard">
+        <div class="ring"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></span></div>
+        <h3>Inspecție<br>tehnică ITP</h3>
+        <a class="more" href="#servicii">Află mai mult</a>
+      </div>
+    </div>
+    <div>
+      <div class="num">02</div>
+      <div class="hcard">
+        <div class="ring"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 13l4-4M12 5V3M8 21h8"/></svg></span></div>
+        <h3>Diagnoză<br>computerizată</h3>
+        <a class="more" href="#servicii">Află mai mult</a>
+      </div>
+    </div>
+    <div>
+      <div class="num">03</div>
+      <div class="hcard">
+        <div class="ring"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M6 17l1.5-5h9L18 17"/><circle cx="8" cy="17" r="2"/><circle cx="16" cy="17" r="2"/><path d="M9 12l1-3h4l1 3"/></svg></span></div>
+        <h3>Toate mărcile<br>și modelele</h3>
+        <a class="more" href="#servicii">Află mai mult</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="brands">
+  <div class="wrap">
+    <div class="brands-head"><span class="line"></span><h2>Lucrăm cu toate mărcile</h2><span class="line"></span></div>
+    <ul class="brand-list">
+      <li>Volkswagen</li>
+      <li>Audi</li>
+      <li>BMW</li>
+      <li>Mercedes-Benz</li>
+      <li>Škoda</li>
+      <li>Dacia</li>
+      <li>Renault</li>
+      <li>Ford</li>
+      <li>Opel</li>
+      <li>Toyota</li>
+      <li>Hyundai</li>
+      <li>Peugeot</li>
+    </ul>
+  </div>
+</section>
+
+<section class="services" id="servicii">
+  <div class="wrap">
+    <div class="stitle">
+      <span class="ghost">Servicii</span>
+      <h2>Serviciile noastre</h2>
+      <p>Tot ce îi trebuie mașinii tale, într-un singur loc, făcut corect de prima dată.</p>
+    </div>
+    <div class="slist">
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></div>
+        <div class="body"><h3>ITP</h3><p>Inspecție tehnică periodică, rapid și fără drumuri în plus.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div>
+        <div class="body"><h3>Mecanică generală</h3><p>Motor, distribuție, ambreiaj și transmisie.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M7 11l2-2 2 2 4-4"/></svg></div>
+        <div class="body"><h3>Diagnoză computerizată</h3><p>Citire și ștergere erori, identificarea rapidă a defectelor.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 4 6 7 6 11a6 6 0 0 1-12 0c0-4 3-7 6-11z"/></svg></div>
+        <div class="body"><h3>Revizii și schimb ulei</h3><p>Ulei, filtre și verificări periodice conform producătorului.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
+        <div class="body"><h3>Sistem de frânare</h3><p>Plăcuțe, discuri, lichid de frână și verificare completă.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M4.9 19.1L19.1 4.9"/></svg></div>
+        <div class="body"><h3>Climatizare</h3><p>Încărcare freon, igienizare și reparații instalație A/C.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16l4-8h8l4 8"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/><path d="M9 17h6"/></svg></div>
+        <div class="body"><h3>Suspensie și direcție</h3><p>Amortizoare, bielete, pivoți și geometrie roți.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v5M12 16v5M3 12h5M16 12h5"/></svg></div>
+        <div class="body"><h3>Vulcanizare</h3><p>Schimb anvelope, echilibrare și reparații pane.</p></div>
+      </div>
+      <div class="srv">
+        <div class="thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div>
+        <div class="body"><h3>Electrică auto</h3><p>Baterii, alternator, electromotor și instalație electrică.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="vizita">
+  <div class="wrap">
+    <div class="stitle">
+      <span class="ghost">Contact</span>
+      <h2>Contact</h2>
+      <p>Sună direct la departamentul de care ai nevoie.</p>
+    </div>
+    <div class="phones">
+      <a class="pcard" href="tel:+40751085565">
+        <span class="pic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z"/><path d="M5 13v7h14v-7"/></svg></span>
+        <span class="pdep">Magazin piese auto</span>
+        <span class="pnum">0751 085 565</span>
+        <span class="pcall"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg> Sună</span>
+      </a>
+      <a class="pcard" href="tel:+40751085574">
+        <span class="pic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></span>
+        <span class="pdep">Service și mecanică</span>
+        <span class="pnum">0751 085 574</span>
+        <span class="pcall"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg> Sună</span>
+      </a>
+      <a class="pcard" href="tel:+40757696812">
+        <span class="pic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v5M12 16v5M3 12h5M16 12h5"/></svg></span>
+        <span class="pdep">Vulcanizare și vânzări anvelope</span>
+        <span class="pnum">0757 696 812</span>
+        <span class="pcall"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg> Sună</span>
+      </a>
+      <a class="pcard" href="tel:+40756492993">
+        <span class="pic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></span>
+        <span class="pdep">ITP</span>
+        <span class="pnum">0756 492 993</span>
+        <span class="pcall"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg> Sună</span>
+      </a>
+    </div>
+    <div class="vgrid">
+      <div class="panel">
+        <h3>Program de lucru</h3>
+        <div class="sub">Luni – Vineri, 08:00 – 17:00</div>
+        <ul class="hours" id="hours">
+          <li data-d="1"><span>Luni</span><span>08:00 – 17:00</span></li>
+          <li data-d="2"><span>Marți</span><span>08:00 – 17:00</span></li>
+          <li data-d="3"><span>Miercuri</span><span>08:00 – 17:00</span></li>
+          <li data-d="4"><span>Joi</span><span>08:00 – 17:00</span></li>
+          <li data-d="5"><span>Vineri</span><span>08:00 – 17:00</span></li>
+          <li data-d="6"><span>Sâmbătă</span><span class="x">Închis</span></li>
+          <li data-d="0"><span>Duminică</span><span class="x">Închis</span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Ne găsești aici</h3>
+        <div class="sub">Adresă și email</div>
+        <div class="clist">
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bulevardul%20Lucian%20Blaga%2077%2C%20Satu%20Mare">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <span><small>Adresă · deschide în Maps</small><strong>Bd. Lucian Blaga, nr. 77, Satu Mare</strong></span>
+          </a>
+          <a href="mailto:esedrasm@gmail.com">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></span>
+            <span><small>Email</small><strong>esedrasm@gmail.com</strong></span>
+          </a>
+          <a target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Bulevardul%20Lucian%20Blaga%2077%2C%20Satu%20Mare">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8z"/></svg></span>
+            <span><small>Navigație</small><strong>Indicații rutiere până la noi</strong></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="location" id="locatie">
+  <div class="wrap">
+    <div class="stitle">
+      <span class="ghost">Locație</span>
+      <h2>Locația service-ului</h2>
+      <p>Bulevardul Lucian Blaga, nr. 77, Satu Mare</p>
+    </div>
+    <div class="map">
+      <div class="map-fallback">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <strong>Bd. Lucian Blaga 77, Satu Mare</strong>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bulevardul%20Lucian%20Blaga%2077%2C%20Satu%20Mare">Deschide harta</a>
+      </div>
+      <iframe title="Harta Esedra Service" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+        src="https://maps.google.com/maps?q=Bulevardul%20Lucian%20Blaga%2077%2C%20Satu%20Mare&t=k&z=17&output=embed"></iframe>
+      <a class="map-card" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Bulevardul%20Lucian%20Blaga%2077%2C%20Satu%20Mare">
+        <span class="badge-logo"><svg viewBox="0 0 64 64"><use href="#logo"/></svg></span>
+        <span><b>Esedra Service</b><small>Bd. Lucian Blaga 77 · Indicații ↗</small></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <a href="#" class="brand"><span class="badge-logo"><svg viewBox="0 0 64 64"><use href="#logo"/></svg></span><span class="wordmark"><b>ESEDRA</b><small><span>-</span><span>SERVICE</span><span>-</span></small></span></a>
+    <span>© 2026 Esedra Service · Bd. Lucian Blaga 77, Satu Mare</span>
+    <a class="btn" href="tel:+40751085565">Sună acum</a>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var d=new Date(), day=d.getDay(), m=d.getHours()*60+d.getMinutes();
+    var open=day>=1&&day<=5&&m>=480&&m<1020; // L–V 08:00–17:00
+    var li=document.querySelector('#hours li[data-d="'+day+'"]'); if(li) li.classList.add('today');
+    if(!open){var s=document.getElementById('status');s.classList.add('off');s.querySelector('b').textContent='Închis acum';}
+  })();
+</script>
+</body>
+</html>
